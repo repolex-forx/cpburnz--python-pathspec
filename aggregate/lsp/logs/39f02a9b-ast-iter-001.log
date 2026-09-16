@@ -1,0 +1,7 @@
+[2026-09-16T22:11:16Z] === AST ITERATION 1 START | repo=cpburnz/python-pathspec sha=39f02a9b ===
+[2026-09-16T22:11:16Z] [iter=1] PHASE START: ast repo=cpburnz/python-pathspec sha=39f02a9b
+[2026-09-16T22:11:16Z] [iter=1] Building AST aggregate chunks
+[2026-09-16T22:11:50Z] [iter=1] AST chunks built count=1 triples=449128
+[2026-09-16T22:11:50Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/39f02a9bd9de3b9b99bba5f794d63d2087a50fec/.complete
+[2026-09-16T22:11:50Z] [iter=1] PHASE END: ast elapsed_s=35 elapsed_min=0.6
+[2026-09-16T22:11:50Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
