@@ -1,0 +1,15 @@
+[2026-09-19T23:51:20Z] === ENRICH ITERATION 1 START | repo=cpburnz/python-pathspec sha=37e28951 ===
+[2026-09-19T23:51:20Z] [iter=1] PHASE START: enrich repo=cpburnz/python-pathspec sha=37e28951 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/37e28951-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/37e289515fbae7e92077a2438996046e79cae5bf.nq.gz
+[2026-09-19T23:51:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-19T23:51:21Z] [iter=1] AST store loaded triples=142485 load_secs=1 mem_mb=283 MB
+[2026-09-19T23:51:21Z] [iter=1] Step 2: Finding LSP targets mem_mb=283 MB
+[2026-09-19T23:51:21Z] [iter=1] LSP targets found call_sites=902 imports=0 extends=0 implements=0 secs=0
+[2026-09-19T23:51:22Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=283 MB
+[2026-09-19T23:51:22Z] [iter=1] Position index built positions=10038 nodes_with_types=13295 secs=1 mem_mb=283 MB
+[2026-09-19T23:51:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=283 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T23:51:22Z] [iter=1] Resolving target type target_type=call_site count=902
+[2026-09-19T23:51:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=9 resolved=502 errors=346 current=pathspec/gitignore.py
+[2026-09-19T23:51:53Z] [iter=1] Target type resolved target_type=call_site resolved=543 errors=355 secs=30 mem_mb=283 MB
+[2026-09-19T23:51:54Z] [iter=1] Step 5: Writing final enrichment file triples=8758
+[2026-09-19T23:51:54Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/37e289515fbae7e92077a2438996046e79cae5bf.nq.gz size_kb=143
+[2026-09-19T23:51:54Z] [iter=1] PHASE END: enrich elapsed_s=35 elapsed_min=0.6 total_triples=8758
